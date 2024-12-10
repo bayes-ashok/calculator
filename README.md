@@ -1,17 +1,31 @@
-# calculator
+# Calculator
 
-A new Flutter project.
+## Calculator View
+This is the main view of the calculator.
 
-## Getting Started
+![Calculator View](screenshots/1.png)
 
-This project is a starting point for a Flutter application.
+## First Number Input
+The first number is displayed in the text field, which is disabled. You must use the buttons to input the numbers.
 
-A few resources to get you started if this is your first Flutter project:
+![First Number Input](screenshots/2.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Operator Selection
+Once an operator is clicked, the first number is shown in the history. The first number remains in the text field unless the second number is entered.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Operator Selection](screenshots/3.png)
 
+## Entering the Second Number
+After entering the second number, the text field displays the second number while the first number is saved for the calculation.
+
+![Entering Second Number](screenshots/4.png)
+
+## Calculation Result
+The result is shown below the history. If the result is a decimal number with a value equal to an integer (like 6.0), it will be displayed as an integer (6).
+
+![Calculation Result](screenshots/5.png)
+
+## Example of Decimal Calculation
+Here is an example of a decimal calculation.
+
+![Decimal Calculation](screenshots/6.png)
